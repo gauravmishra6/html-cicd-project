@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - mkdir -p build
+      - cp index.html style.css build/
+artifacts:
+  files:
+    - build/**
